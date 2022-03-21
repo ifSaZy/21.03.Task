@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="a" HorizontalAlignment="Left" Margin="41,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="b" HorizontalAlignment="Left" Margin="41,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="c" HorizontalAlignment="Left" Margin="41,219,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.467,6.814"/>
+        <TextBox x:Name="TextBoxA" HorizontalAlignment="Left" Height="23" Margin="153,58,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="TextBoxB" HorizontalAlignment="Left" Height="23" Margin="153,130,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBoxC" HorizontalAlignment="Left" Height="23" Margin="153,219,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Посчитать" HorizontalAlignment="Left" Margin="41,318,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label x:Name="result" Content="Результат вычислений:" HorizontalAlignment="Left" Margin="331,40,0,0" VerticalAlignment="Top" Height="298" Width="430"/>
+
+    </Grid>
+</Window>
